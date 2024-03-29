@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# model weights
+*.pt
+*.pth
+
+# Distribution / packaging
+GroundingDINO
+GroundingDINO_weights/*
+data/*
+datasets/*
+
+# exception to the rule
+!GroundingDINO_weights/.gitkeep 
+!data/.gitkeep 
+!datasets/.gitkeep 
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.idea
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
