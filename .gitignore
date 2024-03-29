@@ -10,6 +10,7 @@ __pycache__/
 *.pt
 *.pth
 
+
 # Distribution / packaging
 GroundingDINO
 GroundingDINO_weights/*
@@ -18,10 +19,9 @@ datasets/*
 
 # exception to the rule
 !GroundingDINO_weights/.gitkeep 
-!data/.gitkeep 
-!datasets/.gitkeep 
-!datasets/VOC/*.yaml
-!*.yaml
+
+datasets/VOC/*
+!datasets/VOC/
 !datasets/VOC/VOC.yaml
 
 # Jupyter Notebook
