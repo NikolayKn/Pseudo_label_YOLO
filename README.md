@@ -17,10 +17,10 @@ I use PASCAL VOC 2007 Dataset. The PASCAL VOC (Visual Object Classes) dataset is
 git clone git@github.com:NikolayKn/Pseudo_label_YOLO.git
 ```
 
-2. Run the ```setup.sh``` script to download the Grounding DINO with model weights and install all requrements.
+2. Install all dependencies using pip.
 
 ```bash
-sh setup.sh
+pip install -r requirements.txt
 ```
 
 **Downloading VOC2007 dataset:**
@@ -38,6 +38,9 @@ python download_VOC.py
 ```
 
 
+
+
 ## Credits
+
 - [Pascal VOC 2007](http://host.robots.ox.ac.uk/pascal/VOC/)
-- [Ultralitics](https://github.com/ultralytics)  
+- [ mAP realization by Ultralitics](https://github.com/ultralytics/yolov5/blob/master/val.py)  

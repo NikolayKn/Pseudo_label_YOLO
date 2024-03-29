@@ -20,7 +20,9 @@ datasets/*
 !GroundingDINO_weights/.gitkeep 
 !data/.gitkeep 
 !datasets/.gitkeep 
-
+!datasets/VOC/*.yaml
+!*.yaml
+!datasets/VOC/VOC.yaml
 
 # Jupyter Notebook
 .ipynb_checkpoints
