@@ -12,15 +12,13 @@ __pycache__/
 
 
 # Distribution / packaging
-GroundingDINO
-GroundingDINO_weights/*
-data/*
 datasets/*
-
-# exception to the rule
-!GroundingDINO_weights/.gitkeep 
-
 datasets/VOC/*
+notebooks/runs
+data
+notebooks/runs
+# exception to the rule
+
 !datasets/VOC/
 !datasets/VOC/VOC.yaml
 

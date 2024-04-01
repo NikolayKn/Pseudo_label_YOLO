@@ -4,6 +4,7 @@ import wget
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
+import shutil
 
 def convert_label(path, lb_path, year, image_id, class_names):
     def convert_box(size, box):
@@ -81,8 +82,8 @@ def main():
     # Convert
     path = data_dir + '/VOCdevkit'
     for year, image_set in ('2007', 'train'), ('2007', 'val'), ('2007', 'test'):
-        imgs_path = data_dir + '/images/' +  f'{image_set}{year}'
-        lbs_path = data_dir + '/labels/' + f'{image_set}{year}'
+        imgs_path = data_dir + '/images/' +  f'{image_set}'
+        lbs_path = data_dir + '/labels/' + f'{image_set}'
         imgs_path = Path(imgs_path)
         lbs_path = Path(lbs_path)
         imgs_path.mkdir(exist_ok=True, parents=True)
@@ -96,6 +97,10 @@ def main():
             lb_path = (lbs_path / f.name).with_suffix('.txt')  # new label path 
             convert_label(Path(path), Path(lb_path), year, id, class_names)  # convert labels to YOLO format
             f.rename(imgs_path / f.name)  # move image
+
+        # Copy all label files to backup orig directory
+        lbs_path_orig = data_dir + '/labels/' + f'{image_set}_orig'
+        shutil.copytree(lbs_path, lbs_path_orig)
 
 
 if __name__ == "__main__":
