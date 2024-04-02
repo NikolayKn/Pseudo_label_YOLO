@@ -21,7 +21,7 @@ notebooks/runs
 # exception to the rule
 
 !datasets/VOC/
-!datasets/VOC/VOC.yaml
+!datasets/VOC/*.yaml
 
 # Jupyter Notebook
 .ipynb_checkpoints
