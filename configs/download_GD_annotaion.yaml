@@ -1,0 +1,5 @@
+
+dataset_name: 'VOC' #VOC
+ann_name: 'annotations_nms_0.7_p_0.4' # Название разметки
+ann_postfix: 'GD' # Постфикс разметки
+url: 'https://drive.google.com/file/d/1K9-6IppbpJTnLivh80Or4Oj5tZUgd3ej/view?usp=sharing' # Урл, чтобы скачать (google disk)

@@ -1,0 +1,17 @@
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/orig
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 2
+    workers: 2
+    batch: -1
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16

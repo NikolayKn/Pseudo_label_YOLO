@@ -16,6 +16,7 @@ datasets/*
 datasets/VOC/*
 notebooks/runs
 data
+runs
 notebooks/runs
 # exception to the rule
 
