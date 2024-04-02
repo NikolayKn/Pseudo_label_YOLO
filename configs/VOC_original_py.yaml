@@ -26,7 +26,7 @@
   train_config:
     data: 'datasets/VOC/VOC.yaml'
     imgsz: 640
-    epochs: 100
+    epochs: 150
     workers: 2
     batch: -1
   test_config:
@@ -44,7 +44,7 @@
   train_config:
     data: 'datasets/VOC/VOC.yaml'
     imgsz: 640
-    epochs: 100
+    epochs: 200
     workers: 2
     batch: -1
   test_config:
@@ -62,7 +62,7 @@
   train_config:
     data: 'datasets/VOC/VOC.yaml'
     imgsz: 640
-    epochs: 100
+    epochs: 250
     workers: 2
     batch: -1
   test_config:
@@ -80,7 +80,7 @@
   train_config:
     data: 'datasets/VOC/VOC.yaml'
     imgsz: 640
-    epochs: 100
+    epochs: 250
     workers: 2
     batch: -1
   test_config:
