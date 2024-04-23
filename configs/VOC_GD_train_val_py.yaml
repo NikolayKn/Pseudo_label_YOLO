@@ -1,9 +1,9 @@
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/orig
+  saving_directory: runs/detect/train_val_GD
   data_config:
     dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
+    train_postfix: 'GD'
+    val_postfix: 'GD'
     test_postfix: 
   train_config:
     data: 'datasets/VOC/VOC.yaml'
@@ -17,11 +17,11 @@
     batch: 16
 
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/orig
+  saving_directory: runs/detect/train_val_GD
   data_config:
     dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
+    train_postfix: 'GD'
+    val_postfix: 'GD' 
     test_postfix: 
   train_config:
     data: 'datasets/VOC/VOC.yaml'
@@ -35,11 +35,11 @@
     batch: 16
 
 - model: 'yolov8m.pt'
-  saving_directory: runs/detect/orig
+  saving_directory: runs/detect/train_val_GD
   data_config:
     dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
+    train_postfix: 'GD'
+    val_postfix: 'GD' 
     test_postfix: 
   train_config:
     data: 'datasets/VOC/VOC.yaml'
@@ -53,16 +53,16 @@
     batch: 16
 
 - model: 'yolov8l.pt'
-  saving_directory: runs/detect/orig
+  saving_directory: runs/detect/train_val_GD
   data_config:
     dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
+    train_postfix: 'GD'
+    val_postfix: 'GD' 
     test_postfix: 
   train_config:
     data: 'datasets/VOC/VOC.yaml'
     imgsz: 640
-    epochs: 250
+    epochs: 200
     workers: 2
     batch: 12
   test_config:
@@ -71,11 +71,11 @@
     batch: 8
 
 - model: 'yolov8x.pt'
-  saving_directory: runs/detect/orig
+  saving_directory: runs/detect/train_val_GD
   data_config:
     dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
+    train_postfix: 'GD'
+    val_postfix: 'GD' 
     test_postfix: 
   train_config:
     data: 'datasets/VOC/VOC.yaml'
@@ -86,5 +86,5 @@
   test_config:
     data: 'datasets/VOC/VOC_test.yaml'
     imgsz: 640
-    batch: 8
+    batch: 6
 
