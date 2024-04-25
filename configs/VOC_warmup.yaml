@@ -234,3 +234,4 @@
     data: 'datasets/VOC/VOC_test.yaml'
     imgsz: 640
     batch: 16
+    
