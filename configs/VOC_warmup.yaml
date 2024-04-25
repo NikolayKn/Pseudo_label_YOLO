@@ -1,0 +1,236 @@
+### NANO model GD data
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/GD_warmap_0
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 'GD'
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 100
+    workers: 2
+    batch: 32
+    warmup_epochs: 0
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/GD_warmap_6
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 'GD'
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 100
+    workers: 2
+    batch: 32
+    warmup_epochs: 6
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/GD_warmap_10
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 'GD'
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 100
+    workers: 2
+    batch: 32
+    warmup_epochs: 10
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+
+
+### SMAll model GD data
+- model: 'yolov8s.pt'
+  saving_directory: runs/detect/GD_warmap_0
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 'GD'
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 150
+    workers: 2
+    batch: 32
+    warmup_epochs: 0
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8s.pt'
+  saving_directory: runs/detect/GD_warmap_6
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 'GD'
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 150
+    workers: 2
+    batch: 32
+    warmup_epochs: 6
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8s.pt'
+  saving_directory: runs/detect/GD_warmap_10
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 'GD'
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 150
+    workers: 2
+    batch: 32
+    warmup_epochs: 10
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+
+### NANO model orig data
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/GD_warmap_0
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 100
+    workers: 2
+    batch: 32
+    warmup_epochs: 0
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/GD_warmap_6
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 100
+    workers: 2
+    batch: 32
+    warmup_epochs: 6
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8n.pt'
+  saving_directory: runs/detect/GD_warmap_10
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 100
+    workers: 2
+    batch: 32
+    warmup_epochs: 10
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+
+
+### SMAll model orig data
+- model: 'yolov8s.pt'
+  saving_directory: runs/detect/GD_warmap_0
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 150
+    workers: 2
+    batch: 32
+    warmup_epochs: 0
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8s.pt'
+  saving_directory: runs/detect/GD_warmap_6
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 150
+    workers: 2
+    batch: 32
+    warmup_epochs: 6
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
+
+- model: 'yolov8s.pt'
+  saving_directory: runs/detect/GD_warmap_10
+  data_config:
+    dataset_name: 'VOC'
+    train_postfix: 
+    val_postfix: 
+    test_postfix: 
+  train_config:
+    data: 'datasets/VOC/VOC.yaml'
+    imgsz: 640
+    epochs: 150
+    workers: 2
+    batch: 32
+    warmup_epochs: 10
+  test_config:
+    data: 'datasets/VOC/VOC_test.yaml'
+    imgsz: 640
+    batch: 16
