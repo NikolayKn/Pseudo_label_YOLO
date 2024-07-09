@@ -1,9 +1,10 @@
-## GD TRAIN data
+### GD TRAIN data
 
 # NANO model
 
+# only feature extractor
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_warmap_0
+  saving_directory: runs/detect/GD_freeze_backbone
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -15,30 +16,7 @@
     epochs: 100
     workers: 2
     batch: 32
-    optimizer: 'AdamW'
-    lr0: 0.00005
-    lrf: 0.01
-    patience: 100
-    warmup_epochs: 0
-  test_config:
-    data: 'datasets/VOC/VOC_test.yaml'
-    imgsz: 640
-    batch: 32
-
-- model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_warmap_6
-  data_config:
-    dataset_name: 'VOC'
-    train_postfix: 'GD'
-    val_postfix: 
-    test_postfix: 
-  train_config:
-    data: 'datasets/VOC/VOC.yaml'
-    imgsz: 640
-    epochs: 100
-    workers: 2
-    batch: 32
-    warmup_epochs: 6
+    freeze: 10
     optimizer: 'AdamW'
     lr0: 0.00005
     lrf: 0.01
@@ -48,8 +26,9 @@
     imgsz: 640
     batch: 32
 
+# detection head
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_warmap_10
+  saving_directory: runs/detect/GD_freeze_detection
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -61,7 +40,7 @@
     epochs: 100
     workers: 2
     batch: 32
-    warmup_epochs: 10
+    freeze: 21
     optimizer: 'AdamW'
     lr0: 0.00005
     lrf: 0.01
@@ -71,10 +50,11 @@
     imgsz: 640
     batch: 32
 
+# SMALL model
 
-# SMAll model
+# only feature extractor
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_warmap_0
+  saving_directory: runs/detect/GD_freeze_backbone
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -86,7 +66,7 @@
     epochs: 100
     workers: 2
     batch: 24
-    warmup_epochs: 0
+    freeze: 10
     optimizer: 'AdamW'
     lr0: 0.00001
     lrf: 0.01
@@ -96,8 +76,9 @@
     imgsz: 640
     batch: 24
 
+# detection head
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_warmap_6
+  saving_directory: runs/detect/GD_freeze_detection
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -109,7 +90,7 @@
     epochs: 100
     workers: 2
     batch: 24
-    warmup_epochs: 6
+    freeze: 21
     optimizer: 'AdamW'
     lr0: 0.00001
     lrf: 0.01
@@ -119,36 +100,14 @@
     imgsz: 640
     batch: 24
 
-- model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_warmap_10
-  data_config:
-    dataset_name: 'VOC'
-    train_postfix: 'GD'
-    val_postfix: 
-    test_postfix: 
-  train_config:
-    data: 'datasets/VOC/VOC.yaml'
-    imgsz: 640
-    epochs: 100
-    workers: 2
-    batch: 24
-    optimizer: 'AdamW'
-    lr0: 0.00001
-    lrf: 0.01
-    patience: 100
-    warmup_epochs: 10
-  test_config:
-    data: 'datasets/VOC/VOC_test.yaml'
-    imgsz: 640
-    batch: 24
 
-
-## orig data
+### ORIGINAL DATA
 
 # NANO model
 
+# only feature extractor
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_warmap_0
+  saving_directory: runs/detect/orig_freeze_backbone
   data_config:
     dataset_name: 'VOC'
     train_postfix: 
@@ -160,7 +119,7 @@
     epochs: 100
     workers: 2
     batch: 32
-    warmup_epochs: 0
+    freeze: 10
     optimizer: 'AdamW'
     lr0: 0.00005
     lrf: 0.01
@@ -170,8 +129,9 @@
     imgsz: 640
     batch: 32
 
+# detection head
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_warmap_6
+  saving_directory: runs/detect/orig_freeze_detection
   data_config:
     dataset_name: 'VOC'
     train_postfix: 
@@ -183,7 +143,7 @@
     epochs: 100
     workers: 2
     batch: 32
-    warmup_epochs: 6
+    freeze: 21
     optimizer: 'AdamW'
     lr0: 0.00005
     lrf: 0.01
@@ -193,35 +153,10 @@
     imgsz: 640
     batch: 32
 
-- model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_warmap_10
-  data_config:
-    dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
-    test_postfix: 
-  train_config:
-    data: 'datasets/VOC/VOC.yaml'
-    imgsz: 640
-    epochs: 100
-    workers: 2
-    batch: 32
-    warmup_epochs: 10
-    optimizer: 'AdamW'
-    lr0: 0.00005
-    lrf: 0.01
-    patience: 100
-  test_config:
-    data: 'datasets/VOC/VOC_test.yaml'
-    imgsz: 640
-    batch: 32
-
-
-
-# SMAll model
-
+# SMALL model
+# only feature extractor
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_warmap_0
+  saving_directory: runs/detect/orig_freeze_backbone
   data_config:
     dataset_name: 'VOC'
     train_postfix: 
@@ -233,7 +168,7 @@
     epochs: 100
     workers: 2
     batch: 24
-    warmup_epochs: 0
+    freeze: 10
     optimizer: 'AdamW'
     lr0: 0.00001
     lrf: 0.01
@@ -243,8 +178,9 @@
     imgsz: 640
     batch: 24
 
+# detection head
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_warmap_6
+  saving_directory: runs/detect/orig_freeze_detection
   data_config:
     dataset_name: 'VOC'
     train_postfix: 
@@ -256,7 +192,7 @@
     epochs: 100
     workers: 2
     batch: 24
-    warmup_epochs: 6
+    freeze: 21
     optimizer: 'AdamW'
     lr0: 0.00001
     lrf: 0.01
@@ -266,36 +202,14 @@
     imgsz: 640
     batch: 24
 
-- model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_warmap_10
-  data_config:
-    dataset_name: 'VOC'
-    train_postfix: 
-    val_postfix: 
-    test_postfix: 
-  train_config:
-    data: 'datasets/VOC/VOC.yaml'
-    imgsz: 640
-    epochs: 150
-    workers: 2
-    batch: 24
-    warmup_epochs: 10
-    optimizer: 'AdamW'
-    lr0: 0.00001
-    lrf: 0.01
-    patience: 100
-  test_config:
-    data: 'datasets/VOC/VOC_test.yaml'
-    imgsz: 640
-    batch: 24
-    
 
 ## GD TRAIN VAL data
 
 # NANO model
 
+# only feature extractor
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_train_val_warmap_0
+  saving_directory: runs/detect/GD_train_val_freeze_backbone
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -307,7 +221,7 @@
     epochs: 100
     workers: 2
     batch: 32
-    warmup_epochs: 0
+    freeze: 10
     optimizer: 'AdamW'
     lr0: 0.00005
     lrf: 0.01
@@ -317,8 +231,9 @@
     imgsz: 640
     batch: 32
 
+# detection head
 - model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_train_val_warmap_6
+  saving_directory: runs/detect/GD_train_val_freeze_detection
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -330,7 +245,7 @@
     epochs: 100
     workers: 2
     batch: 32
-    warmup_epochs: 6
+    freeze: 21
     optimizer: 'AdamW'
     lr0: 0.00005
     lrf: 0.01
@@ -340,33 +255,10 @@
     imgsz: 640
     batch: 32
 
-- model: 'yolov8n.pt'
-  saving_directory: runs/detect/GD_train_val_warmap_10
-  data_config:
-    dataset_name: 'VOC'
-    train_postfix: 'GD'
-    val_postfix: 'GD'
-    test_postfix: 
-  train_config:
-    data: 'datasets/VOC/VOC.yaml'
-    imgsz: 640
-    epochs: 100
-    workers: 2
-    batch: 32
-    warmup_epochs: 10
-    optimizer: 'AdamW'
-    lr0: 0.00005
-    lrf: 0.01
-    patience: 100
-  test_config:
-    data: 'datasets/VOC/VOC_test.yaml'
-    imgsz: 640
-    batch: 32
-
-
-# SMAll model
+# SMALL model
+# only feature extractor
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_train_val_warmap_0
+  saving_directory: runs/detect/GD_train_val_freeze_backbone
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -378,7 +270,7 @@
     epochs: 100
     workers: 2
     batch: 24
-    warmup_epochs: 0
+    freeze: 10
     optimizer: 'AdamW'
     lr0: 0.00001
     lrf: 0.01
@@ -388,8 +280,9 @@
     imgsz: 640
     batch: 24
 
+# detection head
 - model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_train_val_warmap_6
+  saving_directory: runs/detect/GD_train_val_freeze_detection
   data_config:
     dataset_name: 'VOC'
     train_postfix: 'GD'
@@ -401,30 +294,7 @@
     epochs: 100
     workers: 2
     batch: 24
-    warmup_epochs: 6
-    optimizer: 'AdamW'
-    lr0: 0.00001
-    lrf: 0.01
-    patience: 100
-  test_config:
-    data: 'datasets/VOC/VOC_test.yaml'
-    imgsz: 640
-    batch: 24
-
-- model: 'yolov8s.pt'
-  saving_directory: runs/detect/GD_train_val_warmap_10
-  data_config:
-    dataset_name: 'VOC'
-    train_postfix: 'GD'
-    val_postfix: 'GD'
-    test_postfix: 
-  train_config:
-    data: 'datasets/VOC/VOC.yaml'
-    imgsz: 640
-    epochs: 100
-    workers: 2
-    batch: 24
-    warmup_epochs: 10
+    freeze: 21
     optimizer: 'AdamW'
     lr0: 0.00001
     lrf: 0.01

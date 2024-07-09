@@ -1,0 +1,1836 @@
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/100/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/100/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/100/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/100/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/100/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/200/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/200/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/200/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/200/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/200/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/500/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/500/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/500/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/500/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/500/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/1000/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/orig/nano/1000/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/100/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/100/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/100/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/100/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/100/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/200/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/200/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/200/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/200/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/200/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/500/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/500/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/500/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/500/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/500/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/1000/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/orig/small/1000/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: null
+    val_postfix: null
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/100/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/100/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/100/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/100/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/100/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/200/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/200/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/200/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/200/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/200/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/500/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/500/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/500/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/500/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/500/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/1000/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8n.pt
+  saving_directory: runs/split_exp/GD_train_val/nano/1000/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 32
+    lr0: 5.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 32
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/100/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/100/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/100/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/100/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/100/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 100
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/200/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/200/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/200/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/200/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/200/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 200
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/500/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/500/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/500/exp_3
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 3
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/500/exp_4
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 4
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/500/exp_5
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 500
+    data_split: 5
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/1000/exp_1
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 1
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
+- model: yolov8s.pt
+  saving_directory: runs/split_exp/GD_train_val/small/1000/exp_2
+  data_config:
+    dataset_name: VOC
+    train_postfix: GD
+    val_postfix: GD
+    test_postfix: null
+    seed: 42
+    number_of_samples: 1000
+    data_split: 2
+  train_config:
+    data: datasets/VOC/VOC.yaml
+    imgsz: 640
+    workers: 2
+    optimizer: AdamW
+    save_period: 20
+    epochs: 100
+    batch: 24
+    lr0: 1.0e-05
+    lrf: 0.01
+    patience: 100
+  test_config:
+    data: datasets/VOC/VOC_test.yaml
+    imgsz: 640
+    batch: 24
+
+
