@@ -37,6 +37,29 @@ source .venv/bin/activate
 python download_VOC.py
 ```
 
+**Using Notebooks:**
+
+1. In the `notebooks` directory, you will find various Jupyter notebooks for different purposes:
+   - **Visualization of Results:** Notebooks with `visualizations` in their titles are used for visualizing the results of various experiments.
+   - **Configuration Files Creation:** These notebooks help in creating configuration `.yaml` files for setting up and organizing different experiment runs.
+   - **Playground:** A notebook named `playground` is available for testing various approaches and constructs.
+
+**Configurations:**
+
+1. The `configs` directory contains various configuration files for different experiments.
+
+**Source Directory:**
+
+1. The `source` directory contains the following scripts:
+   - **run_experiment.py:** Script for running experiments. Example usage:
+   
+     ```bash
+     python run_experiments.py configs/cfg.yaml
+     ```
+   
+   - **run_experiment_only_train.py:** Similar to `run_experiment.py`, but only performs training without running tests on the test dataset.
+   
+   - **run_experiment_test_all_weights.py:** Adds the ability to train on a partial dataset and test all saved checkpoints during training.
 
 
 
